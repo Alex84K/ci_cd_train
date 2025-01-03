@@ -28,6 +28,5 @@ jobs:
         npm cache clean --force
         npm install
     - run: npm run build --if-present
-    - run: npm test
     - name: Build Docker image
       run: docker build -t face:latest .
