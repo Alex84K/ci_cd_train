@@ -7,7 +7,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
        <button className="btn">Click me!</button>
-       <button className="btn">Click me!</button>
+       <button className="btn">Click ME!</button>
       </header>
     </div>
   )
